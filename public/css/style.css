@@ -1,0 +1,103 @@
+/*Otherwise .hidden at the top will be overwritten. */
+
+.hidden {
+  display: none !important;
+}
+
+body {
+  /*  background-color: salmon;
+*/
+  background-image: : src (img/background.jpeg);
+  font-family: Helvetica;
+}
+
+h1 {
+  color: rgb(2, 132, 130);
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.timer, .clicks {
+  text-align: center;
+  margin: 5px;
+  display: inline-block;
+}
+
+.status-bar {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  height: 100px;
+}
+
+.play {
+  font-size: 60px;
+  margin: 0 auto;
+  /*margin: 0 auto;
+  display: block;*/
+  align-self: center;
+  position: absolute;
+  left: 43%;
+  top: 35%;
+}
+
+.inform {
+  /*height: 15px;*/
+  /*margin: auto;*/
+  text-align: center;
+}
+
+.reset {
+  font-size: 30px;
+  margin: 0 auto;
+  display: block;
+}
+
+.container {
+  width: 1080px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.card {
+  height: 150px;
+  width: 110px;
+  background-color: lightblue;
+  float: left;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card p {
+  font-size: 50px;
+  color: blue;
+}
+
+.wrap {
+  width: 100%;
+  height: 50px;
+  /*border: 2px solid black;*/
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+
+/*.container {
+  width: 100%;
+  height: 200px;
+}*/
